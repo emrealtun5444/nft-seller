@@ -64,7 +64,7 @@ def fiyat_ara_satin_al(mydriver,secim:int):
     url_list=[nftpassport_fiyat_url,argentina_fiyat_url]
     fiyat_secim=[fiyat_nftpassport,fiyat_argentina]
     ##############################################################################################
-    for_uzunlugu=3
+    for_uzunlugu=300
     adim=0
     while adim < for_uzunlugu:
         try:

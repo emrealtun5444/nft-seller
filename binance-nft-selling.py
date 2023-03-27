@@ -280,7 +280,7 @@ for xx in range(0,50):
             ##############################################################################################
             try:
                 busd_secim= WebDriverWait(driver, 20).until(
-                    EC.element_to_be_clickable((By.ID,"BUSD"))
+                    EC.element_to_be_clickable((By.ID,"USDT"))
                 )
                 busd_secim.click()
                 time.sleep(rand_zaman())
